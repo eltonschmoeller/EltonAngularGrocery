@@ -1,14 +1,16 @@
 <div>
     <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-2 col-md-offset-4">
             <h2 class="text-center"> Elton Grocery List Manager </h2>
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Enter grocery items" [(ngModel)]="task.name" />
-                <div class="input-group-btn">
-                    <button class="btn btn-primary" type="button" (click)="onClick()">
-                        <span class="glyphicon glyphicon-ok"></span>
-                    </button>
-                </div>
+                <form ng-submit="onClick()">
+                    <div class="input-group-btn">
+                    <input type="text" class="form-control" placeholder="Enter grocery items" [(ngModel)]="task.name" name="name"/>
+                        <button class="btn btn-success" type="button" (click)="onClick()"  type="submit">
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                    </div>
+                </form>
             </div>
             <ul class="list-group">
                 <li *ngFor="let task of tasks" class="list-group-item">
