@@ -3,8 +3,10 @@
 # GETTING START
 Clone the project:
 `git clone https://github.com/eltonschmoeller/EltonAngularGrocery.git`
+
 Enter in the folder:
 `cd EltonAngularGrocery`
+
 Install the dependencies:
 `npm install`
 
