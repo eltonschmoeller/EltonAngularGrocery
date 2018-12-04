@@ -1,6 +1,15 @@
-# EltonAngularGrocery
+# EltonAngularGrocery 
+
+# GETTING START
+Clone the project:
+`git clone https://github.com/eltonschmoeller/EltonAngularGrocery.git`
+Enter in the folder:
+`cd EltonAngularGrocery`
+Install the dependencies:
+`npm install`
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
+
 
 ## Development server
 
