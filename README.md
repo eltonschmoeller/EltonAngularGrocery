@@ -1,4 +1,4 @@
-# EltonAngularGrocery 
+# Elton Angular Grocery 
 
 # GETTING START
 Clone the project:
